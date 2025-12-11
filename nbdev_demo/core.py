@@ -9,3 +9,13 @@ __all__ = ['add']
 def add(a, b):
     """Adds two numbers together."""
     return a + b
+
+def subtract(a, b):
+    """
+    Subtracts two numbers.
+    
+    :param a: The first number
+    :param b: The second number
+    """
+
+    return a - b
