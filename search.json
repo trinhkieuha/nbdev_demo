@@ -1,0 +1,62 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nsubtract\n\n subtract (a:float, b:float)\n\nSubtracts two numbers.\n\n\n\n\nType\nDetails\n\n\n\n\na\nfloat\nFirst number\n\n\nb\nfloat\nSecond number\n\n\nReturns\nfloat\nThe difference\n\n\n\n\nsource\n\n\nadd\n\n add (a:float, b:float)\n\nAdds two numbers together.\n\n\n\n\nType\nDetails\n\n\n\n\na\nfloat\nFirst number\n\n\nb\nfloat\nSecond number\n\n\nReturns\nfloat\nThe sum\n\n\n\n\n# Test case for the add function\nassert add(1, 2) == 3",
+    "crumbs": [
+      "core"
+    ]
+  },
+  {
+    "objectID": "hello_sayer.html",
+    "href": "hello_sayer.html",
+    "title": "Hello sayer",
+    "section": "",
+    "text": "source\n\nhello_sayer\n\n hello_sayer (name:str)\n\n\n\n\n\nType\nDetails\n\n\n\n\nname\nstr\nName of the person\n\n\nReturns\nstr\nThe greeting\n\n\n\n\nassert hello_sayer(\"Hehe\") == \"Hello Hehe\"",
+    "crumbs": [
+      "Hello sayer"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev_demo",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "nbdev_demo"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "nbdev_demo",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nInstall nbdev_demo in Development mode\n# make sure nbdev_demo package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to nbdev_demo\n$ nbdev_prepare",
+    "crumbs": [
+      "nbdev_demo"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "nbdev_demo",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/trinhkieuha/nbdev_demo.git\nor from conda\n$ conda install -c trinhkieuha nbdev_demo\nor from pypi\n$ pip install nbdev_demo\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "nbdev_demo"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev_demo",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2",
+    "crumbs": [
+      "nbdev_demo"
+    ]
+  }
+]
