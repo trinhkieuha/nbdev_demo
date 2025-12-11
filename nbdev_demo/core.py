@@ -6,7 +6,9 @@
 __all__ = ['add', 'subtract']
 
 # %% ../nbs/00_core.ipynb 3
-def add(a, b):
+def add(a: float, # First number
+        b: float # Second number
+        )->float: # The sum
     """Adds two numbers together."""
     return a + b
 
