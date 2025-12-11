@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://trinhkieuha.github.io',
                 'git_url': 'https://github.com/trinhkieuha/nbdev_demo',
                 'lib_path': 'nbdev_demo'},
-  'syms': {'nbdev_demo.core': {'nbdev_demo.core.add': ('core.html#add', 'nbdev_demo/core.py')}}}
+  'syms': { 'nbdev_demo.core': { 'nbdev_demo.core.add': ('core.html#add', 'nbdev_demo/core.py'),
+                                 'nbdev_demo.core.subtract': ('core.html#subtract', 'nbdev_demo/core.py')}}}
