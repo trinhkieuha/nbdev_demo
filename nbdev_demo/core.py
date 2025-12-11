@@ -10,12 +10,8 @@ def add(a, b):
     """Adds two numbers together."""
     return a + b
 
-def subtract(a, b):
-    """
-    Subtracts two numbers.
-    
-    :param a: The first number
-    :param b: The second number
-    """
-
+def subtract(a: float, # First number
+             b: float # Second number
+             )->float: # The difference
+    """Subtracts two numbers."""
     return a - b
